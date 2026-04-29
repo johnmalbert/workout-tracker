@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.6.0",
+    "googleapis": "^171.4.0"
+  }
+}
